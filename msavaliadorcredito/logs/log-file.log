@@ -1,0 +1,11 @@
+2023-03-22 11:09:40.368  INFO 30284 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 11.0.17 on LBR-PE08094N with PID 30284 (started by rafrota in C:\Users\rafrota\OneDrive - Capgemini\Documents\Desenvolvimento\Projetos\WorkspaceRaissa\projeto-cursoms\msavaliadorcredito)
+2023-03-22 11:09:40.371  INFO 30284 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-03-22 11:09:42.643  INFO 30284 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=96969adc-1ff2-3316-bc9d-bf150c5e5917
+2023-03-22 11:09:43.842  INFO 30284 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2023-03-22 11:09:44.045  INFO 30284 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-03-22 11:09:53.297  INFO 30284 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-03-22 11:09:53.431  WARN 30284 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-03-22 11:09:53.459  INFO 30284 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-03-22 11:09:53.556  INFO 30284 --- [main] c.r.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 15.422 seconds (JVM running for 16.852)
+2023-03-22 11:09:54.331  INFO 30284 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-03-22 11:09:54.339  INFO 30284 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
